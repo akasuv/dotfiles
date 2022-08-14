@@ -12,7 +12,7 @@ vim.cmd([[
 ]])
 
 vim.cmd([[
-	nmap <silent> <C-D> :NERDTreeToggle<CR>
+	nmap <silent> <C-D> :NvimTreeToggle<CR>
 ]])
 
 vim.cmd([[
