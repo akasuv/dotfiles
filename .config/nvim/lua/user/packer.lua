@@ -10,7 +10,6 @@ return require("packer").startup(function(use)
 	use("wakatime/vim-wakatime")
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("neovim/nvim-lspconfig")
-	use("mhinz/vim-startify")
 	use("sbdchd/neoformat")
 	use("github/copilot.vim")
 	use("wbthomason/packer.nvim")
@@ -29,4 +28,18 @@ return require("packer").startup(function(use)
 		},
 		tag = "nightly", -- optional, updated every week. (see issue #1193)
 	})
+	use({
+		"nvim-treesitter/nvim-treesitter",
+		run = function()
+			require("nvim-treesitter.install").update({ with_sync = true })
+		end,
+	})
+	use({
+		"akinsho/toggleterm.nvim",
+		tag = "v2.*",
+		config = function()
+			require("toggleterm").setup()
+		end,
+	})
+	use({ "glepnir/dashboard-nvim" })
 end)
