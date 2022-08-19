@@ -9,8 +9,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 keymap("", "L", "<cmd>lua require'hop'.hint_lines()<cr>", {})
-keymap("", "w", "<cmd>lua require'hop'.hint_words()<cr>", {})
-keymap("", ";", "<cmd>lua require'hop'.hint_patterns()<cr>", {})
+keymap("", "W", "<cmd>lua require'hop'.hint_words()<cr>", {})
+keymap("", "?", "<cmd>lua require'hop'.hint_patterns()<cr>", {})
 
 keymap(
 	"",
