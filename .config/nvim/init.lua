@@ -1,7 +1,6 @@
 require("user.packer")
 require("user.settings")
 require("user.keymaps")
-require("user.github-theme")
 require("user.lualine")
 require("user.nvim-lspconfig")
 require("user.null-ls")

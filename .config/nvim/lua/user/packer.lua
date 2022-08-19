@@ -1,6 +1,7 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
+	use("Mofiqul/dracula.nvim")
 	use({
 		"https://git.sr.ht/~whynothugo/lsp_lines.nvim",
 		config = function()

@@ -2,7 +2,7 @@ local lualine = require("lualine")
 
 local config = {
 	options = {
-		theme = "nightfly",
+		theme = "dracula-nvim",
 	},
 }
 

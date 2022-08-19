@@ -1,3 +1,4 @@
+vim.cmd([[colorscheme dracula]])
 vim.cmd([[set number]])
 vim.cmd([[set fcs=eob:\ ]])
 
