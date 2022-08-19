@@ -1,4 +1,5 @@
 vim.cmd([[set number]])
+vim.cmd([[set fcs=eob:\ ]])
 
 vim.cmd([[
   augroup packer_user_config
