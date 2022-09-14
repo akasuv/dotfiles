@@ -1,6 +1,7 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
+	use("f-person/git-blame.nvim")
 	use("Mofiqul/dracula.nvim")
 	use({
 		"https://git.sr.ht/~whynothugo/lsp_lines.nvim",
@@ -12,7 +13,6 @@ return require("packer").startup(function(use)
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("neovim/nvim-lspconfig")
 	use("sbdchd/neoformat")
-	use("github/copilot.vim")
 	use("wbthomason/packer.nvim")
 	use("tpope/vim-surround")
 	use({ "nvim-telescope/telescope.nvim", requires = { { "nvim-lua/plenary.nvim" } } })
