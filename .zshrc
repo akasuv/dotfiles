@@ -113,4 +113,4 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 #export https_proxy=https://127.0.0.1:1087
 
 export PATH="$PATH:/Users/suv/.foundry/bin"
-alias dtf='/usr/bin/git --git-dir=/Users/suv/.dotfiles/ --work-tree=/Users/suv'
+alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
