@@ -8,9 +8,9 @@ reference: https://www.atlassian.com/git/tutorials/dotfiles
 2. `echo ".dotfiles" >> .gitignore`
 3. `git clone --bare https://github.com/akasuv/dotfiles $HOME/.dotfiles`
 4. `alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'`
-5. ```
-   dtf checkout
+5. `dtf checkout`
 
+```
    --- Possible Errors ---
    error: The following untracked working tree files would be overwritten by checkout:
    .bashrc
@@ -26,6 +26,6 @@ reference: https://www.atlassian.com/git/tutorials/dotfiles
 
    --- Re-Run ---
    dtf checkout
-   ```
+```
 
 6. `dtf config --local status.showUntrackedFiles no`
