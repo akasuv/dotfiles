@@ -2,7 +2,7 @@
 
 reference: https://www.atlassian.com/git/tutorials/dotfiles
 
-##Installing
+## Installing
 
 1. `echo "alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc`
 2. `echo ".dotfiles" >> .gitignore`
