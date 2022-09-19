@@ -1,6 +1,16 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
+	use("neovim/nvim-lspconfig")
+	use("hrsh7th/cmp-nvim-lsp")
+	use("hrsh7th/cmp-buffer")
+	use("hrsh7th/cmp-path")
+	use("hrsh7th/cmp-cmdline")
+	use("hrsh7th/nvim-cmp")
+	use({ "tzachar/cmp-tabnine", run = "./install.sh", requires = { "hrsh7th/nvim-cmp" } })
+	use("L3MON4D3/LuaSnip")
+	use("saadparwaiz1/cmp_luasnip")
+
 	use("f-person/git-blame.nvim")
 	use("Mofiqul/dracula.nvim")
 	use({
