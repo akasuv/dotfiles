@@ -1,4 +1,5 @@
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
+
 require("null-ls").setup({
 	on_attach = function(client, bufnr)
 		if client.supports_method("textDocument/formatting") then
@@ -7,8 +8,18 @@ require("null-ls").setup({
 				group = augroup,
 				buffer = bufnr,
 				callback = function()
+					-- Automatically organize imports	
+					local params = {
+						command = "_typescript.organizeImports",
+						arguments = { vim.api.nvim_buf_get_name(0) },
+						title = "",
+					}
+
+					vim.lsp.buf.execute_command(params)
+
 					-- on 0.8, you should use vim.lsp.buf.format({ bufnr = bufnr }) instead
 					vim.lsp.buf.formatting_sync()
+
 				end,
 			})
 		end
