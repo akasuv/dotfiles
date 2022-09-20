@@ -1,6 +1,7 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
+	use("yamatsum/nvim-cursorline")
 	use({
 		"numToStr/Comment.nvim",
 		config = function()
