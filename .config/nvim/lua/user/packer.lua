@@ -1,6 +1,8 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
+	use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("github/copilot.vim")
 	use({
 		"folke/trouble.nvim",
 		requires = "kyazdani42/nvim-web-devicons",
@@ -24,6 +26,7 @@ return require("packer").startup(function(use)
 	use("hrsh7th/cmp-buffer")
 	use("hrsh7th/cmp-path")
 	use("hrsh7th/cmp-cmdline")
+	use("hrsh7th/cmp-copilot")
 	use("hrsh7th/nvim-cmp")
 	use({ "tzachar/cmp-tabnine", run = "./install.sh", requires = { "hrsh7th/nvim-cmp" } })
 	use("L3MON4D3/LuaSnip")
@@ -39,7 +42,6 @@ return require("packer").startup(function(use)
 	})
 	use("wakatime/vim-wakatime")
 	use("jose-elias-alvarez/null-ls.nvim")
-	use("neovim/nvim-lspconfig")
 	use("sbdchd/neoformat")
 	use("wbthomason/packer.nvim")
 	use("tpope/vim-surround")
