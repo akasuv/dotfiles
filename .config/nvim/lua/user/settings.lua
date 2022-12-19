@@ -1,4 +1,5 @@
-vim.cmd([[colorscheme dracula]])
+vim.opt.background = "dark" -- set this to dark or light
+vim.cmd("colorscheme dracula")
 vim.cmd([[set number]])
 vim.cmd([[set fcs=eob:\ ]])
 

@@ -1,6 +1,7 @@
 vim.cmd([[packadd packer.nvim]])
 
 return require("packer").startup(function(use)
+	use({ "nyoom-engineering/oxocarbon.nvim" })
 	use("JoosepAlviste/nvim-ts-context-commentstring")
 	use("github/copilot.vim")
 	use({
