@@ -1,7 +1,8 @@
 vim.cmd([[packadd packer.nvim]])
 
-return require("packer").startup(function(use)
-	use({ "nyoom-engineering/oxocarbon.nvim" })
+require("packer").startup(function(use)
+	use("LudoPinelli/comment-box.nvim")
+	use({ "catppuccin/nvim", as = "catppuccin" })
 	use("JoosepAlviste/nvim-ts-context-commentstring")
 	use("github/copilot.vim")
 	use({
@@ -29,10 +30,6 @@ return require("packer").startup(function(use)
 	use("hrsh7th/cmp-cmdline")
 	use("hrsh7th/cmp-copilot")
 	use("hrsh7th/nvim-cmp")
-	use({ "tzachar/cmp-tabnine", run = "./install.sh", requires = { "hrsh7th/nvim-cmp" } })
-	use("L3MON4D3/LuaSnip")
-	use("saadparwaiz1/cmp_luasnip")
-
 	use("f-person/git-blame.nvim")
 	use("Mofiqul/dracula.nvim")
 	use({
@@ -41,7 +38,6 @@ return require("packer").startup(function(use)
 			require("lsp_lines").setup()
 		end,
 	})
-	use("wakatime/vim-wakatime")
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("sbdchd/neoformat")
 	use("wbthomason/packer.nvim")
@@ -66,14 +62,6 @@ return require("packer").startup(function(use)
 			require("nvim-treesitter.install").update({ with_sync = true })
 		end,
 	})
-	use({
-		"akinsho/toggleterm.nvim",
-		tag = "v2.*",
-		config = function()
-			require("toggleterm").setup()
-		end,
-	})
-	use({ "glepnir/dashboard-nvim" })
 	use({
 		"phaazon/hop.nvim",
 		branch = "v2", -- optional but strongly recommended

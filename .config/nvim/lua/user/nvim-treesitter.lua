@@ -11,6 +11,7 @@ require("nvim-treesitter.configs").setup({
 		"yaml",
 		"tsx",
 		"javascript",
+		"svelte",
 	},
 	sync_install = true,
 	highlight = {

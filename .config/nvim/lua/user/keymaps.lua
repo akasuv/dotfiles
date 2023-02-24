@@ -46,6 +46,10 @@ keymap(
 )
 
 vim.cmd([[
+	nmap <silent> <C-B> :CBcbox<CR>
+]])
+
+vim.cmd([[
 	nmap <silent> <C-D> :NvimTreeToggle<CR>
 ]])
 

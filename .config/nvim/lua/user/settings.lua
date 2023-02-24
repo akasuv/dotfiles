@@ -1,5 +1,5 @@
 vim.opt.background = "dark" -- set this to dark or light
-vim.cmd("colorscheme dracula")
+vim.cmd("colorscheme catppuccin-mocha") -- set the colorscheme
 vim.cmd([[set number]])
 vim.cmd([[set fcs=eob:\ ]])
 
