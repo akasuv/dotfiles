@@ -1,6 +1,8 @@
 vim.cmd([[packadd packer.nvim]])
 
 require("packer").startup(function(use)
+	use("simrat39/symbols-outline.nvim")
+	use("nvim-telescope/telescope-media-files.nvim")
 	use("LudoPinelli/comment-box.nvim")
 	use({ "catppuccin/nvim", as = "catppuccin" })
 	use("JoosepAlviste/nvim-ts-context-commentstring")

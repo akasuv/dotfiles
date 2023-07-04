@@ -37,6 +37,8 @@ local on_attach = function(client, bufnr)
 	end
 end
 
+-- cloes
+
 local lsp_flags = {
 	-- This is the default in Nvim 0.7+
 	debounce_text_changes = 150,

@@ -46,7 +46,7 @@ keymap(
 )
 
 vim.cmd([[
-	nmap <silent> <C-B> :CBcbox<CR>
+	nmap <silent> <C-B> :CBcbox10<CR>
 ]])
 
 vim.cmd([[

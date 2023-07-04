@@ -10,9 +10,9 @@ vim.cmd([[
   augroup end
 ]])
 
-vim.cmd([[
-   command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
-]])
+-- vim.cmd([[
+--    command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+-- ]])
 
 vim.diagnostic.config({
 	virtual_text = false,

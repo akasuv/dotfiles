@@ -1,3 +1,4 @@
+eval $(thefuck --alias)
 # Fig pre block. Keep at the top of this file.
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
@@ -102,8 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias fs='nvim'
-alias python='python3'
-alias pip='pip3'
+alias python='python3.10'
+alias pip='noglob pip3.10'
 
 TERM=xterm
 export NVM_DIR="$HOME/.nvm"
@@ -118,5 +119,15 @@ export PATH="$PATH:/Users/suv/.foundry/bin"
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias vi='nvim'
 
+
+# pnpm
+export PNPM_HOME="/Users/suv/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+alias lg='lazygit'
