@@ -68,6 +68,7 @@ plugins = {
 	},
 	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 	"xiyaowong/transparent.nvim",
+	"rcarriga/nvim-notify",
 }
 
 require("lazy").setup(plugins)
