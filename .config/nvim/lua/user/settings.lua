@@ -1,7 +1,8 @@
-vim.opt.background = "dark" -- set this to dark or light
-vim.cmd("colorscheme catppuccin-mocha") -- set the colorscheme
-vim.cmd([[set number]])
-vim.cmd([[set fcs=eob:\ ]])
+vim.opt.background = "dark"
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.number = true
+vim.cmd.colorscheme("dracula")
 
 vim.cmd([[
   augroup packer_user_config
@@ -9,10 +10,6 @@ vim.cmd([[
     autocmd BufWritePost plugins.lua source <afile> | PackerCompile
   augroup end
 ]])
-
--- vim.cmd([[
---    command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
--- ]])
 
 vim.diagnostic.config({
 	virtual_text = false,

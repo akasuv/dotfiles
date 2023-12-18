@@ -118,6 +118,7 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="$PATH:/Users/suv/.foundry/bin"
 alias dtf='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias vi='nvim'
+alias lv='/Users/suv/.local/bin/lvim'
 
 
 # pnpm
@@ -131,3 +132,10 @@ esac
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
 alias lg='lazygit'
+
+# bun completions
+[ -s "/Users/suv/.bun/_bun" ] && source "/Users/suv/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

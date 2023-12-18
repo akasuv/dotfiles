@@ -50,7 +50,7 @@ vim.cmd([[
 ]])
 
 vim.cmd([[
-	nmap <silent> <C-D> :NvimTreeToggle<CR>
+	nmap <silent> <C-D> :Neotree toggle<CR>
 ]])
 
 vim.cmd([[
@@ -60,3 +60,5 @@ vim.cmd([[
 	nnoremap <leader>fb <cmd>Telescope buffers<cr>
 	nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 ]])
+
+-- vim.api.nvim_set_keymap("n", "<space>fe", ":Telescope file_browser<CR>", { noremap = true })

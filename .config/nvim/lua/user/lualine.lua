@@ -1,9 +1,7 @@
 local lualine = require("lualine")
 
 local config = {
-	options = {
-		theme = "dracula-nvim",
-	},
+	option = { theme = "dracula" },
 	sections = {
 		lualine_c = {
 			{
