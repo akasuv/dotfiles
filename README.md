@@ -1,5 +1,5 @@
 # dotfiles
-Dotfiles for my macOS setup.
+Dotfiles for my macOS setup powered by [Mackup](https://github.com/lra/mackup).
 
 ## Clone dotfiles to home root
 
