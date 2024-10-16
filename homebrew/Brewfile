@@ -6,6 +6,7 @@ brew "k6"
 brew "sidekick"
 brew "tmux"
 brew "neovim"
+brew "deno"
 
 # 'cask'
 cask "raycast"
