@@ -1,32 +1,21 @@
 # dotfiles
-Dotfiles for my macOS setup powered by [Mackup](https://github.com/lra/mackup).
+Dotfiles for my macOS setup powered by [rcm](https://thoughtbot.github.io/rcm/rcm.7.html).
 
 ## Clone dotfiles to home root
 
 ```bash
-  cd ~ && git clone ...
+  cd ~ && git clone ... && mv dotfiles .dotfiles
 ```
 
-## Symlink Mackup config
+## Synchronize your home directory
 
 ```bash
-  ln -s ./dotfiles/.mackup.cfg
+  rcup -v
 ```
 
-## Install Mackup
+## Add new rc files
 
 ```bash
-brew install mackup
-```
-
-## Launch it and restore configurations
-
-```bash
-mackup restore
-```
-
-## Launch it and back up configurations
-```bash
-mackup backup
+  mkrc .zshrc ...
 ```
 
