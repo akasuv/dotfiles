@@ -1,0 +1,11 @@
+# 'brew'
+brew "mas"
+brew "rcm"
+brew "gh"
+brew "k6"
+brew "sidekick"
+
+# 'cask'
+cask "iterm2"
+cask "1password"
+cask "flux"
