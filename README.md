@@ -33,3 +33,7 @@ Website: [https://brew.sh](https://brew.sh)
   mkrc .zshrc ...
 ```
 
+## Setup Neovim
+```bash
+  ln -s ~/.neovim ~/.config/nvim
+```
