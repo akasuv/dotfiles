@@ -35,5 +35,5 @@ Website: [https://brew.sh](https://brew.sh)
 
 ## Setup Neovim
 ```bash
-  ln -s ~/.neovim/* ~/.config/nvim/*
+  ln -s ~/.neovim ~/.config/nvim
 ```
