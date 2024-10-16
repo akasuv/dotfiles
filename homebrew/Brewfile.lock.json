@@ -54,6 +54,18 @@
         "options": {
           "full_name": "raycast"
         }
+      },
+      "setapp": {
+        "version": "3.40.0,93,1728631321",
+        "options": {
+          "full_name": "setapp"
+        }
+      },
+      "arc": {
+        "version": "1.63.1,54714",
+        "options": {
+          "full_name": "arc"
+        }
       }
     },
     "brew": {
