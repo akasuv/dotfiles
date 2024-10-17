@@ -66,6 +66,36 @@
         "options": {
           "full_name": "arc"
         }
+      },
+      "karabiner-elements": {
+        "version": "15.2.0",
+        "options": {
+          "full_name": "karabiner-elements"
+        }
+      },
+      "fantastical": {
+        "version": "3.9.2",
+        "options": {
+          "full_name": "fantastical"
+        }
+      },
+      "notion": {
+        "version": "3.17.0",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "figma": {
+        "version": "124.4.7",
+        "options": {
+          "full_name": "figma"
+        }
+      },
+      "stash": {
+        "version": "2.6.6,308",
+        "options": {
+          "full_name": "stash"
+        }
       }
     },
     "brew": {
