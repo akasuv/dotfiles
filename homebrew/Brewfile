@@ -24,3 +24,6 @@ cask "fantastical"
 cask "notion"
 cask "figma"
 cask "stash"
+
+# 'mas'
+mas "Drafts", id: 1435957248
