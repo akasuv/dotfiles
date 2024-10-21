@@ -96,6 +96,12 @@
         "options": {
           "full_name": "stash"
         }
+      },
+      "docker": {
+        "version": "4.34.3,170107",
+        "options": {
+          "full_name": "docker"
+        }
       }
     },
     "brew": {
@@ -251,40 +257,40 @@
         }
       },
       "sidekick": {
-        "version": "0.6.4",
+        "version": "0.6.5",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_sequoia": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:489df5c3af88a3fac2a2b35fd66ccd216b14be62f9f0cbd9b6a40c17f41f97b3",
-              "sha256": "489df5c3af88a3fac2a2b35fd66ccd216b14be62f9f0cbd9b6a40c17f41f97b3"
+              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:ac05b03397f05af43c8d548f65d2f962d1e800b58474e047ce125439b2f9a97b",
+              "sha256": "ac05b03397f05af43c8d548f65d2f962d1e800b58474e047ce125439b2f9a97b"
             },
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:489df5c3af88a3fac2a2b35fd66ccd216b14be62f9f0cbd9b6a40c17f41f97b3",
-              "sha256": "489df5c3af88a3fac2a2b35fd66ccd216b14be62f9f0cbd9b6a40c17f41f97b3"
+              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:ac05b03397f05af43c8d548f65d2f962d1e800b58474e047ce125439b2f9a97b",
+              "sha256": "ac05b03397f05af43c8d548f65d2f962d1e800b58474e047ce125439b2f9a97b"
             },
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:489df5c3af88a3fac2a2b35fd66ccd216b14be62f9f0cbd9b6a40c17f41f97b3",
-              "sha256": "489df5c3af88a3fac2a2b35fd66ccd216b14be62f9f0cbd9b6a40c17f41f97b3"
+              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:ac05b03397f05af43c8d548f65d2f962d1e800b58474e047ce125439b2f9a97b",
+              "sha256": "ac05b03397f05af43c8d548f65d2f962d1e800b58474e047ce125439b2f9a97b"
             },
             "sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:f69d0faa834c79e843c817a23b5051edfcdf9117aebb05ebec908146433aec91",
-              "sha256": "f69d0faa834c79e843c817a23b5051edfcdf9117aebb05ebec908146433aec91"
+              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:d1d3c17dee520482d7be81aa43e17cc8646b268cd8223eb36768d5feebc09ebe",
+              "sha256": "d1d3c17dee520482d7be81aa43e17cc8646b268cd8223eb36768d5feebc09ebe"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:f69d0faa834c79e843c817a23b5051edfcdf9117aebb05ebec908146433aec91",
-              "sha256": "f69d0faa834c79e843c817a23b5051edfcdf9117aebb05ebec908146433aec91"
+              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:d1d3c17dee520482d7be81aa43e17cc8646b268cd8223eb36768d5feebc09ebe",
+              "sha256": "d1d3c17dee520482d7be81aa43e17cc8646b268cd8223eb36768d5feebc09ebe"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:d013a5b201b43321b17c5c75031eeb47df2191c963ef7888e4120702640a3542",
-              "sha256": "d013a5b201b43321b17c5c75031eeb47df2191c963ef7888e4120702640a3542"
+              "url": "https://ghcr.io/v2/homebrew/core/sidekick/blobs/sha256:43211272d0b6653cc5bef090b57701ca446338abd55e421f71c461f17a96848d",
+              "sha256": "43211272d0b6653cc5bef090b57701ca446338abd55e421f71c461f17a96848d"
             }
           }
         }
@@ -422,7 +428,7 @@
         "Homebrew/homebrew-core": "api",
         "CLT": "16.0.0.0.1.1724870825",
         "Xcode": "16.0",
-        "macOS": "15.0"
+        "macOS": "15.0.1"
       }
     }
   }
