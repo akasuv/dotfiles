@@ -102,6 +102,12 @@
         "options": {
           "full_name": "docker"
         }
+      },
+      "calibre": {
+        "version": "7.20.0",
+        "options": {
+          "full_name": "calibre"
+        }
       }
     },
     "brew": {

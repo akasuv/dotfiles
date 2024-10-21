@@ -25,6 +25,7 @@ cask "notion"
 cask "figma"
 cask "stash"
 cask "docker"
+cask "calibre"
 
 # 'mas'
 mas "Drafts", id: 1435957248
