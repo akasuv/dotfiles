@@ -26,6 +26,7 @@ cask "figma"
 cask "stash"
 cask "docker"
 cask "calibre"
+cask "discord"
 
 # 'mas'
 mas "Drafts", id: 1435957248

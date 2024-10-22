@@ -108,6 +108,12 @@
         "options": {
           "full_name": "calibre"
         }
+      },
+      "discord": {
+        "version": "0.0.322",
+        "options": {
+          "full_name": "discord"
+        }
       }
     },
     "brew": {
